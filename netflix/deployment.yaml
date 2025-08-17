@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-container
-        image: vijaygiduthuri/netflix:latest
-        #image: rudra006/netflixdev:latest
+        #image: vijaygiduthuri/netflix:latest
+        image: rudra006/netflixdev:latest
         ports:
         - containerPort: 4000
